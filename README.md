@@ -21,7 +21,7 @@ npm install
 ```
 
 ## Development Server
-Starts the development server on `http://localhost:3000`:
+Start the development server on `http://localhost:3000`:
 
 ```bash
 npm run dev
@@ -60,10 +60,10 @@ You will find the generated files within the `.output/public` directory.
 This project was statically deployed using NGINX, which serves the index.html page and related assets. I choose NGINX since it can handle clean URL routing when using Vue.js with Vue Router. I was using GitHub Pages when the site only had HTML/CSS, however there can be limitations in GitHub when using Vue Router, especially when navigating backwards in the browser.
 
 ### Universal Rendering
-This type of deployment will have your website running on Node.js. When a user or a web crawler hits your website, the server will **quickly generate the first HTML page** and send it in the response.
+With this type of deployment your website will be running on Node.js. When a user or a web crawler hits your website, the server will **quickly generate the first HTML page** and send it in the response.
 
 This fast server-side rendering (SSR) of the initial content makes the Google crawler happy which gives a boost to the website's SEO ranking; and it is also highly performant for users on less powerful devices.
 
-After this initial page is sent, the rest of data is downloaded in the background. This step is called **hydration** as the page fills with all of the data it needs to convert into a Single Page Application (SPA).
+After this initial page is sent, the rest of data is downloaded in the background. This step is called **hydration** as the page fills with all of the data it needs to convert into a **Vue Single Page Application** (SPA).
 
 When the user clicks to navigate to another page on the website, they are now within a Vue SPA. Luckily a Google bot won't _click_ a link on the page. Users with JavaScript disabled might be surprised however when only the first page of the website loads properly.
