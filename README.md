@@ -11,7 +11,7 @@ Vue.js 3.0 is an elegant front-end solution. Nuxt takes Vue, and surrounds it wi
 - **Optimized Performance**: Increases speed and responsiveness of web applications.
 - **SEO-Friendly SSR**: Server-side rendering of the first page served for better SEO scores.
 - **Static Site Generation**: Or you have the option to easily create static, SEO-optimized sites.
-- **Modern Development Tools**: Incorporates cutting-edge tools for web development. It's a great debugging environment!
+- **Modern Development Tools**: Incorporates cutting-edge tools for web development. It has such a great debugging environment!
 
 
 ## Setup
