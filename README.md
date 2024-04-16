@@ -56,8 +56,8 @@ npx nuxi generate
 
 You will find the generated files within the `.output/public` directory.
 
-#### NGINX
-This project was statically deployed using NGINX, which serves the index.html page and related assets. I choose NGINX since it can handle clean URL routing when using Vue.js with Vue Router. I was using GitHub Pages when the site only had HTML/CSS, however there can be limitations in GitHub when using Vue Router, especially when navigating backwards in the browser.
+#### Vercel
+This project is hosted within the free Hobby tier on Vercel. I simply connected Vercel to the repository and it worked immediately. I then connected updated the DNS records for chrisbaileypiano, and the task was complete.
 
 ### Universal Rendering
 With this type of deployment your website will be running on Node.js. When a user or a web crawler hits your website, the server will **quickly generate the first HTML page** and send it in the response.
